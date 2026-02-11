@@ -1,0 +1,131 @@
+@import url('https://fonts.cdnfonts.com/css/bowler');
+@import url(https://myfonts.ru/myfonts?fonts=bahnschrift);
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+
+
+:root {
+  /* font-family: 'Bahnschrift', Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --slides-per-view-mobile: 3;
+  --slides-per-view-tablet: 2;
+  --slides-per-view-desktop: 1;
+  --color-primary: #8cee1d;
+}
+
+html { 
+  scroll-behavior: smooth; 
+}
+
+li {
+  margin-left: 10px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* a {
+  display: flex;
+  border: 1px solid #777575; 
+  width: 120px; 
+  height: 60px; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-color: var(--color-primary);
+} */
+
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background-color: #47474730;
+}
+
+.marquee {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marquee linear infinite;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8cee1d;
+  border-radius: 4px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes fly-in {
+  0% { transform: translate(var(--sx), var(--sy)) scale(0.5); opacity: 0; }
+  30% { opacity: 1; }
+  100% { transform: translate(var(--ex), var(--ey)) scale(1); opacity: 1; }
+}
+@keyframes title-appear {
+  0% { transform: scale(0.9); opacity: 0; filter: blur(10px); }
+  100% { transform: scale(1); opacity: 1; filter: blur(0); }
+}
+@keyframes corner-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.4; }
+  50% { transform: scale(1.05); opacity: 1; }
+}
+@keyframes scan-line {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+.animate-fly-in { animation: fly-in 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+
+.animate-title { animation: title-appear 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+
+.corner-decor { animation: corner-pulse 4s ease-in-out infinite; }
+
+
+
+
+
+@media (min-width: 640px) {
+  :root {
+    --slides-per-view: var(--slides-per-view-tablet);
+  }
+  .site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 100px
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --slides-per-view: var(--slides-per-view-desktop);
+  }
+}

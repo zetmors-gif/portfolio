@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4000 4000">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        mask: url(#mask-1);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-6 {
+        mask: url(#mask);
+      }
+
+      .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-10 {
+        mask: url(#mask-2);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-14 {
+        fill: #0a4600;
+      }
+
+      .cls-14, .cls-15 {
+        fill-rule: evenodd;
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-17 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-15 {
+        fill: #59f963;
+      }
+
+      .cls-18 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-8 {
+        clip-rule: evenodd;
+      }
+
+      .cls-19 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-20 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-21 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-22 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-23 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-24 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-25 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-26 {
+        mask: url(#mask-3);
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-8" points="2243.34 2077.37 2767.03 1488.04 2767.03 1142.64 1280.13 1142.64 1280.13 1544.38 2110.54 1544.38 1636.91 2077.37 2243.34 2077.37"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="2177.82" y1="2181.81" x2="1907.73" y2="1180.54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a4600"/>
+      <stop offset="1" stop-color="#59f963"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <polygon class="cls-8" points="2106.9 2230.91 2210.59 2114.22 1604.17 2114.22 1500.48 2230.91 2106.9 2230.91"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="1860.91" y1="2248.77" x2="1851.5" y2="2115.33" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-2">
+      <polygon class="cls-8" points="1250.73 2857.36 2767.03 2857.36 2767.03 2455.62 1907.22 2455.62 2074.16 2267.76 1467.73 2267.76 1250.73 2511.96 1250.73 2857.36"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="2071.68" y1="2939" x2="1961.71" y2="2279.81" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-3">
+      <rect class="cls-7" x="2299.69" y="2075.84" width="208.81" height="36.85"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="2405.92" y1="2118.3" x2="2402.73" y2="2076.21" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-4">
+      <rect class="cls-7" x="2152.68" y="2230.91" width="119.76" height="36.85"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="2215.69" y1="2273.1" x2="2210.21" y2="2231.5" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-5">
+      <rect class="cls-7" x="1379.99" y="2075.84" width="208.81" height="36.85"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-6" x1="1486.22" y1="2118.3" x2="1483.02" y2="2076.21" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-6">
+      <rect class="cls-7" x="1232.97" y="2230.91" width="119.76" height="36.85"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-7" x1="1295.99" y1="2273.09" x2="1290.5" y2="2231.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="-3491.31" y1="5370.76" x2="-2837.22" y2="4916.27" gradientTransform="translate(5248.63 -3268.32)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="1636.91" y="1544.38" width="1080.05" height="533" maskUnits="userSpaceOnUse">
+      <rect class="cls-17" x="1636.91" y="1544.38" width="1080.05" height="533"/>
+    </mask>
+    <linearGradient id="linear-gradient-9" x1="-2150.48" y1="5840.88" x2="-3685.87" y2="5549.14" gradientTransform="translate(5116.99 -3002.43)" xlink:href="#linear-gradient-8"/>
+    <mask id="mask-1" x="1250.73" y="2455.62" width="1516.29" height="401.73" maskUnits="userSpaceOnUse">
+      <rect class="cls-20" x="1250.73" y="2455.62" width="1516.29" height="401.73"/>
+    </mask>
+    <linearGradient id="linear-gradient-10" x1="-3484.83" y1="4703.74" x2="-2296.44" y2="4955.55" gradientTransform="translate(5127.01 -3469.22)" xlink:href="#linear-gradient-8"/>
+    <mask id="mask-2" x="1280.13" y="1142.64" width="1486.9" height="345.39" maskUnits="userSpaceOnUse">
+      <rect class="cls-5" x="1280.13" y="1142.65" width="1486.9" height="345.39"/>
+    </mask>
+    <linearGradient id="linear-gradient-11" x1="-2108.39" y1="5218.56" x2="-3656.05" y2="5900.28" gradientTransform="translate(5116.99 -3002.43)" xlink:href="#linear-gradient-8"/>
+    <mask id="mask-3" x="1250.73" y="2455.62" width="1516.29" height="401.73" maskUnits="userSpaceOnUse">
+      <rect class="cls-21" x="1250.73" y="2455.62" width="1516.29" height="401.73"/>
+    </mask>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <rect width="4000" height="4000"/>
+      <g class="cls-25">
+        <rect class="cls-24" x="1280.13" y="1142.64" width="1486.9" height="934.73"/>
+      </g>
+      <g class="cls-12">
+        <rect class="cls-3" x="1500.48" y="2114.22" width="710.12" height="116.69"/>
+      </g>
+      <g class="cls-23">
+        <rect class="cls-11" x="1250.73" y="2267.76" width="1516.29" height="589.59"/>
+      </g>
+      <g class="cls-18">
+        <rect class="cls-9" x="2299.69" y="2075.84" width="208.81" height="36.85"/>
+      </g>
+      <g class="cls-2">
+        <rect class="cls-13" x="2152.68" y="2230.91" width="119.76" height="36.85"/>
+      </g>
+      <g class="cls-16">
+        <rect class="cls-22" x="1379.99" y="2075.84" width="208.81" height="36.85"/>
+      </g>
+      <g class="cls-1">
+        <rect class="cls-19" x="1232.97" y="2230.91" width="119.76" height="36.85"/>
+      </g>
+      <g class="cls-6">
+        <polygon class="cls-14" points="2716.96 1544.38 2110.54 1544.38 1636.91 2077.37 2243.34 2077.37 2716.96 1544.38"/>
+      </g>
+      <g class="cls-4">
+        <polygon class="cls-14" points="1907.22 2455.62 1300.8 2455.62 1250.73 2511.96 1250.73 2857.36 2767.03 2857.36 2767.03 2455.62 1907.22 2455.62"/>
+      </g>
+      <g class="cls-10">
+        <polygon class="cls-15" points="1280.13 1142.64 2767.03 1488.04 2767.03 1142.64 1280.13 1142.64"/>
+      </g>
+      <g class="cls-26">
+        <polygon class="cls-14" points="2767.03 2455.62 1250.73 2857.36 2767.03 2857.36 2767.03 2455.62"/>
+      </g>
+    </g>
+  </g>
+</svg>
